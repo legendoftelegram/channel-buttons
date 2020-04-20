@@ -21,6 +21,7 @@ else:
 from translation import Translation
 
 import pyrogram
+from pyrogram import Filters
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 
