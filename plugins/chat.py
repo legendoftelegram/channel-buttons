@@ -62,7 +62,7 @@ async def start(bot, update):
    
 
 
-@pyrogram.Client.on_message(pyrogram.Filters.text & ~Filters.edited & ~Filters.document)
+@pyrogram.Client.on_message(pyrogram.Filters.video | Filters.document | Filters.text)
 async def chats(bot, update):
     await bot.send_message(
         chat_id=update.chat.id,
