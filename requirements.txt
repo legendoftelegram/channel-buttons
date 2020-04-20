@@ -1,11 +1,3 @@
-aiohttp
-requests
-git+git://github.com/google/chatbase-python.git
 git+git://github.com/TGExplore/TGExplore.git
-Pillow
-hachoir
-numpy
-beautifulsoup4
 TgCrypto
-git+git://github.com/ananduks2016/youtube-dl.git
 
