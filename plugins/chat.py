@@ -24,11 +24,6 @@ import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 
-def GetExpiryDate(chat_id):
-    expires_at = (str(chat_id), "plan z", "1970.01.01.12.00.00")
-   
-    return expires_at
-
 
 @pyrogram.Client.on_message(pyrogram.Filters.command(["help", "about"]))
 async def help_user(bot, update):
@@ -59,10 +54,9 @@ async def get_me_info(bot, update):
 
 @pyrogram.Client.on_message(pyrogram.Filters.command(["start"]))
 async def start(bot, update):
-    # logger.info(update)
     await bot.send_message(
         chat_id=update.chat.id,
-        text=Translation.START_TEXT,
+        text=Translation.START_MSG,
     )
    
 
