@@ -23,7 +23,6 @@ from translation import Translation
 import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
-from helper_funcs.display_progress import userids
 
 def GetExpiryDate(chat_id):
     expires_at = (str(chat_id), "plan z", "1970.01.01.12.00.00")
