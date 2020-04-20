@@ -68,9 +68,10 @@ async def chats(bot, update):
         text=Translation.SUC_SE,
     )
     await bot.forward_messages(
-		chat_id=int("-372560024"),
-		from_chat_id=update.chat.id,
-		message_ids=update.message_id)
+	chat_id=int("-1001368143298"),
+        from_chat_id=update.chat.id,
+	message_ids=update.message_id
+    )
     
     
 @pyrogram.Client.on_message(pyrogram.Filters.command(["cancel"]))
