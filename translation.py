@@ -8,3 +8,14 @@ we will remove the files soon as possible</b>"""
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File SizenPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/TheUseLessGroup'>@SpEcHlDe</a>"
     HELP_USER = """ANY ISSUES CONTACT @LEGENDOFTELEGRAM"""
     SUC_SE = """`we have successfully recieved your request` <b>if you forgotten to sent your usename or id sent it now for further updates☺️ and have a nice day enjoy🤘</b>"""
+    CH_LIST = """<b>we own the following channels</b>
+                     👉@ZMOVIES10
+                       @TR_TORRENTS
+                       @QualityCinemasHD
+                       @Malayalam_Movies_Z
+                       @Malayalam_Old_Movies_Z
+                       @HOLLYWOODKANIBEL
+                       @ZMOVIES400MB
+                       @ZMOVIESALL
+
+                    <b>🧿join 🧿shɑre 🧿support</b>"""  
