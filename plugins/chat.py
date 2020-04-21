@@ -76,7 +76,7 @@ async def chats(bot, update):
     
     
 @pyrogram.Client.on_message(pyrogram.Filters.chat(-1001368143298))
-async def cancel(bot, update):
+async def reply(bot, update):
     # logger.info(update)
     await bot.send_message(
         chat_id=update.chat.id,
