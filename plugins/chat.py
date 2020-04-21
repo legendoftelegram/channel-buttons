@@ -72,17 +72,16 @@ async def chats(bot, update):
 	chat_id=int("-1001368143298"),
         from_chat_id=update.chat.id,
 	message_ids=update.message_id
+        forward_from=rep
     )
     
     
 @pyrogram.Client.on_message(pyrogram.Filters.chat(-1001368143298))
 async def reply(bot, update):
-    # logger.info(update)
     await bot.send_message(
-        chat_id=update.chat.id,
-        text=Translation.CANCEL_TEXT,
-        reply_to_message_id=update.message_id
+        chat_id=rep.chat.id,
+        from_chat_id=update.chat.id,
+	message_ids=chat.message_id
     )
-    userids.append(update.chat.id)
-
+   
   
