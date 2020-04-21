@@ -73,7 +73,7 @@ async def chats(bot, update):
           from_chat_id=update.chat.id,
 	  message_ids=update.message_id
     )
-     await bot.send_message(
+    await bot.send_message(
         chat_id=rep.chat.id,
         from_chat_id=update.chat.id,
 	message_ids=chat.message_id
