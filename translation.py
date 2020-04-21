@@ -12,13 +12,13 @@ we will remove the files soon as possible</b>"""
 <b>Bot developed by</b> @Legendoftelegram"""
     SUC_SE = """`we have successfully recieved your request` <b>if you forgotten to sent your usename or id sent it now for further updates☺️ and have a nice day enjoy🤘</b>"""
     CH_LIST = """<b>we own the following channels</b>
-                     👉@ZMOVIES10
-                       @TR_TORRENTS
-                       @QualityCinemasHD
-                       @Malayalam_Movies_Z
-                       @Malayalam_Old_Movies_Z
-                       @HOLLYWOODKANIBEL
-                       @ZMOVIES400MB
-                       @ZMOVIESALL
+   👉@ZMOVIES10
+     @TR_TORRENTS
+     @QualityCinemasHD
+     @Malayalam_Movies_Z
+     @Malayalam_Old_Movies_Z
+     @HOLLYWOODKANIBEL
+     @ZMOVIES400MB
+     @ZMOVIESALL
 
-                    <b>🧿join 🧿shɑre 🧿support</b>"""  
+  <b>🧿join 🧿shɑre 🧿support</b>"""  
