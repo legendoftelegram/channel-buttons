@@ -75,7 +75,7 @@ async def chats(bot, update):
     )
     
     
-@pyrogram.Client.on_message(pyrogram.Filters.chat=int("-1001368143298"))
+@pyrogram.Client.on_message(pyrogram.Filters.chat(-1001368143298))
 async def cancel(bot, update):
     # logger.info(update)
     await bot.send_message(
