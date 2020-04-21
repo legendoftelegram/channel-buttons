@@ -68,11 +68,10 @@ async def chats(bot, update):
         chat_id=update.chat.id,
         text=Translation.SUC_SE,
     )
-    await bot.forward_messages(
+rep = await bot.forward_messages(
 	chat_id=int("-1001368143298"),
         from_chat_id=update.chat.id,
 	message_ids=update.message_id
-        forward_from=rep
     )
     
     
