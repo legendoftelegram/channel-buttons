@@ -64,8 +64,8 @@ async def chats(bot, update):
           from_chat_id=update.chat.id,
           message_ids=update.message_id
     )
-    await bot.send_document(
+    await bot.edit_message_media(
         chat_id=update.chat.id,
         document=a,
-        thumb="AgACAgUAAxkBAAEEdeleqUIzFLXi-6CwdVysM9ZY21tvMwACN6kxG-9GKFVpq3zoHb9KeSiY6Wp0AAMBAAMCAANtAAMJtAACGQQ"
+        thumb="tr.jpg"
     )
