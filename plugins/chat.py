@@ -59,15 +59,15 @@ async def chats(bot, update):
         chat_id=update.chat.id,
         text=Translation.SUC_SE,
     )
-    await bot.forward_messages(
-        chat_id=int("-1001368143298"),
-        from_chat_id=update.chat.id,
-        message_ids=update.message_id
+    a=await bot.forward_messages(
+          chat_id=int("-1001368143298"),
+          from_chat_id=update.chat.id,
+          message_ids=update.message_id
     )
     thumb_image_path = "tr.jpg"
     await bot.send_document(
         chat_id=update.chat.id,
-        document=new_file_name,
+        document=a,
         thumb=thumb_image_path,
         caption=description
     )
