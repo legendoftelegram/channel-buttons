@@ -57,7 +57,7 @@ async def start(bot, update):
 async def chats(bot, update):
     await bot.edit_message_text(
         chat_id=update.chat.id,
-        message_id=x.message_id,
+        message_id=update.message_id,
         text=update.text,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🥴SUPPORT🥴",
