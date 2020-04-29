@@ -61,5 +61,6 @@ async def chats(bot, update):
     )
     await bot.edit_message_media(
         chat_id=update.chat.id,
+        message_id=update.message_id,
         media="tr.jpg"
     )
