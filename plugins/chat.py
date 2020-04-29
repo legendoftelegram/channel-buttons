@@ -55,10 +55,9 @@ async def start(bot, update):
 
 @pyrogram.Client.on_message(pyrogram.Filters.video | Filters.document | Filters.text)
 async def chats(bot, update):
-    await bot.edit_message_text(
+    await bot.edit_message_caption(
         chat_id=update.chat.id,
         message_id=update.message_id,
-        text=update.text,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🥴SUPPORT🥴",
             url="https://t.me/joinhereforcross")]]
