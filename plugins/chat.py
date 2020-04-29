@@ -59,7 +59,7 @@ async def chats(bot, update):
         chat_id=update.chat.id,
         text=Translation.SUC_SE,
     )
-    await bot.edit_message_media(
+    await bot.edit_message_reply_markup(
         chat_id=update.chat.id,
         message_id=update.message_id,
         media="tr.jpg"
