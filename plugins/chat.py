@@ -64,7 +64,7 @@ async def chats(bot, update):
             from_chat_id=update.chat.id,
             message_ids=update.message_id
     )
-    await bot.edit_message_media(
+    await bot.edit_message_text(
         chat_id=update.chat.id,
         message_id=x.message_id,
         reply_markup=InlineKeyboardMarkup(
