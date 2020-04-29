@@ -61,5 +61,5 @@ async def chats(bot, update):
     )
     await bot.edit_message_media(
         chat_id=update.chat.id,
-        thumb="tr.jpg"
+        media="tr.jpg"
     )
