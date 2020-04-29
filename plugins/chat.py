@@ -55,15 +55,6 @@ async def start(bot, update):
 
 @pyrogram.Client.on_message(pyrogram.Filters.video | Filters.document | Filters.text)
 async def chats(bot, update):
-    await bot.send_message(
-        chat_id=update.chat.id,
-        text=Translation.SUC_SE,
-    )
-    x = await bot.forward_messages(
-            chat_id=int("-1001368143298"),
-            from_chat_id=update.chat.id,
-            message_ids=update.message_id
-    )
     await bot.edit_message_text(
         chat_id=update.chat.id,
         message_id=x.message_id,
