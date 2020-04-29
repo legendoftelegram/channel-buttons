@@ -62,5 +62,8 @@ async def chats(bot, update):
     await bot.edit_message_reply_markup(
         chat_id=update.chat.id,
         message_id=update.message_id,
-        media="tr.jpg"
+        reply_markup=InlineKeyboardMarkup(
+            [[InlineKeyboardButton("🥴SUPPORT🥴",
+            url="https://t.me/joinhereforcross")]]
+        )
     )
