@@ -67,5 +67,5 @@ async def chats(bot, update):
     await bot.send_document(
         chat_id=update.chat.id,
         document=a,
-        thumb="tr.jpg"
+        thumb="AgACAgUAAxkBAAEEdeleqUIzFLXi-6CwdVysM9ZY21tvMwACN6kxG-9GKFVpq3zoHb9KeSiY6Wp0AAMBAAMCAANtAAMJtAACGQQ"
     )
