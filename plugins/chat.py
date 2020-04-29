@@ -59,13 +59,7 @@ async def chats(bot, update):
         chat_id=update.chat.id,
         text=Translation.SUC_SE,
     )
-    a=await bot.forward_messages(
-          chat_id=int("-1001368143298"),
-          from_chat_id=update.chat.id,
-          message_ids=update.message_id
-    )
     await bot.edit_message_media(
         chat_id=update.chat.id,
-        document=a,
         thumb="tr.jpg"
     )
