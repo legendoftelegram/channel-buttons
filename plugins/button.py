@@ -52,6 +52,6 @@ async def chats(bot, update):
         message_id=update.message_id,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🧿join old malayalam movies🧿",
-            url="https://t.me/share/url?url=https://t.me/joinchat/AAAAAEoI9qHQDl54X6hrnA")]] 
+            url="https://t.me/joinchat/AAAAAEoI9qHQDl54X6hrnA")]] 
         )
     )
