@@ -48,7 +48,7 @@ async def start(bot, update):
 @pyrogram.Client.on_message(pyrogram.Filters.video | Filters.document)
 async def chats(bot, update):
     await bot.edit_message_reply_markup(
-        chat_id=int("-1001217117824"),
+        chat_id=int("-1001242101409"),
         message_id=update.message_id,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("**shɑre & support**",
