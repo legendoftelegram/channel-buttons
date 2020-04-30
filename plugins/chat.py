@@ -58,7 +58,6 @@ async def chats(bot, update):
     await bot.edit_message_reply_markup(
         chat_id=int("-1001217117824"),
         message_id=update.message_id,
-        caption=caption,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🥴SUPPORT🥴",
             url="https://t.me/joinhereforcross")]]
