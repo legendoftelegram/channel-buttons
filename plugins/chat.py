@@ -52,10 +52,7 @@ async def chats(bot, update):
         message_id=update.message_id,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("**shɑre & support**",
-            url="https://t.me/share/url?url=https://t.me/joinchat/AAAAAEoI9qHQDl54X6hrnA")]],
-          [[InlineKeyboardButton("🔥Mɑlɑyɑlɑm Movies🔥",
-            url="https://t.me/joinchat/AAAAAFPCFsHvCo9WTClaVg"),
-            InlineKeyboardButton("x265 HEVC",
-                 url="https://t.me/joinchat/AAAAAFSZfpvuqvHrlJ-Vig")]]
+            url="https://t.me/share/url?url=https://t.me/joinchat/AAAAAEoI9qHQDl54X6hrnA")],
+          [InlineKeyboardButton("🔥Mɑlɑyɑlɑm Movies🔥", url="https://t.me/joinchat/AAAAAFPCFsHvCo9WTClaVg"), InlineKeyboardButton("x265 HEVC", url="https://t.me/joinchat/AAAAAFSZfpvuqvHrlJ-Vig")]]
         )
     )
