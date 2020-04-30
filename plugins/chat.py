@@ -51,7 +51,11 @@ async def chats(bot, update):
         chat_id=int("-1001217117824"),
         message_id=update.message_id,
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🥴SUPPORT🥴",
-            url="https://t.me/joinhereforcross")]]
+            [[InlineKeyboardButton("**shɑre & support**",
+            url="https://t.me/share/url?url=https://t.me/joinchat/AAAAAEoI9qHQDl54X6hrnA")]],
+          [[InlineKeyboardButton("🔥Mɑlɑyɑlɑm Movies🔥",
+            url="https://t.me/joinchat/AAAAAFPCFsHvCo9WTClaVg"),
+            InlineKeyboardButton("x265 HEVC",
+                 url="https://t.me/joinchat/AAAAAFSZfpvuqvHrlJ-Vig")]]
         )
     )
