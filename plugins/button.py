@@ -51,7 +51,7 @@ async def chats(bot, update):
         chat_id=int("-1001242101409"),
         message_id=update.message_id,
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("**shɑre & support**",
+            [[InlineKeyboardButton("🔥shɑre & support🔥",
             url="https://t.me/share/url?url=https://t.me/joinchat/AAAAAEoI9qHQDl54X6hrnA")]] 
         )
     )
