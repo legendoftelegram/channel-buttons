@@ -34,15 +34,7 @@ async def help_user(bot, update):
         text=Translation.HELP
     )
   
-
-
-@pyrogram.Client.on_message(pyrogram.Filters.command(["channels"]))
-async def channels(bot, update):
-    await bot.send_message(
-        chat_id=update.chat.id,
-        text=Translation.CH_LIST,
-    )
-
+  
 
 @pyrogram.Client.on_message(pyrogram.Filters.command(["start"]))
 async def start(bot, update):
