@@ -48,10 +48,10 @@ async def start(bot, update):
 @pyrogram.Client.on_message(pyrogram.Filters.video | Filters.document)
 async def chats(bot, update):
     await bot.edit_message_reply_markup(
-        chat_id=int("-1001242101409"),
+        chat_id=int("-1001393346045"),
         message_id=update.message_id,
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🧿old malayalam movies🧿",
+            [[InlineKeyboardButton("🧿join old malayalam movies🧿",
             url="https://t.me/share/url?url=https://t.me/joinchat/AAAAAEoI9qHQDl54X6hrnA")]] 
         )
     )
