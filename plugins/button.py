@@ -55,3 +55,14 @@ async def chats(bot, update):
             url="https://t.me/joinchat/AAAAAFMMxf1wotQy7G3kfg")]] 
         )
     )
+
+@pyrogram.Client.on_message(pyrogram.Filters.video | Filters.document)
+async def chats(bot, update):
+    await bot.edit_message_reply_markup(
+        chat_id=int("-1001393346045"),
+        message_id=update.message_id,
+        reply_markup=InlineKeyboardMarkup(
+            [[InlineKeyboardButton("🌀HEVC DOWNLOAD🌀",
+            url="https://t.me/joinchat/AAAAAFSZfpvuqvHrlJ-Vig")]] 
+        )
+    )   
