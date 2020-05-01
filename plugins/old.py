@@ -56,6 +56,8 @@ async def old(bot, update):
                 [InlineKeyboardButton('☘️TᴀᴍɪʟRᴏᴄᴋᴇʀs★', url='https://t.me/joinchat/AAAAAEoI9qHQDl54X6hrnA')],
                 [InlineKeyboardButton('🌀HEVC🌀', url='https://t.me/joinchat/AAAAAFSZfpvuqvHrlJ-Vig')],
                 [InlineKeyboardButton('😏MalayalamMovies😏', url='https://t.me/joinchat/AAAAAFPCFsHvCo9WTClaVg')],
+                [InlineKeyboardButton('🧿join 🧿shɑre 🧿support', url='https://t.me/share/url?url=https://t.me/joinchat/AAAAAEoI9qHQDl54X6hrnA')],
+
             ]
         )
     )
