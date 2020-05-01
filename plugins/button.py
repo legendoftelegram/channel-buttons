@@ -51,7 +51,7 @@ async def chats(bot, update):
         chat_id=int("-1001393346045"),
         message_id=update.message_id,
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🧿join old malayalam movies🧿",
+            [[InlineKeyboardButton("💤old malayalam movies💤",
             url="https://t.me/joinchat/AAAAAFMMxf1wotQy7G3kfg")]] 
         )
     )
@@ -59,7 +59,7 @@ async def chats(bot, update):
 @pyrogram.Client.on_message(pyrogram.Filters.video | Filters.document)
 async def chats(bot, update):
     await bot.edit_message_reply_markup(
-        chat_id=int("-1001393346045"),
+        chat_id=int("-1001419345563"),
         message_id=update.message_id,
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🌀HEVC DOWNLOAD🌀",
