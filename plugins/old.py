@@ -45,10 +45,10 @@ async def start(bot, update):
    
 
 
-@pyrogram.Client.on_message(pyrogram.Filters.video | Filters.document)
+@pyrogram.Client.on_message(pyrogram.Filters.document)
 async def old(bot, update):
     await bot.edit_message_reply_markup(
-        chat_id=int("-1001393346045"),
+        chat_id=int("-1001370109082"),
         message_id=update.message_id,
         reply_markup=InlineKeyboardMarkup(
             [
