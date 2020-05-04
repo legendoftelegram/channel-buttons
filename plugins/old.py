@@ -56,10 +56,10 @@ async def old(bot, update):
                 [InlineKeyboardButton("Film City", url="https://t.me/joinchat/AAAAAFcWmGkDtzO6fKov9A"), InlineKeyboardButton("Malayalam Movies", url="https://t.me/joinchat/AAAAAFQq5ByVjeEzTQxtdw")],
                 [InlineKeyboardButton("Leaked Movies", url="https://t.me/joinchat/AAAAAFj23kEV6_DfuUg0wQ"), InlineKeyboardButton("Netflix Movies series", url="https://t.me/joinchat/AAAAAFJF5c1kZSlroRT1sQ")],
                 [InlineKeyboardButton("All In One Movie Channel", url="https://t.me/joinchat/AAAAAEXBrsq98fFfilU2Mw"), InlineKeyboardButton("Hevc Movies", url="https://t.me/joinchat/AAAAAEdvAySlFirppj4ACg")],
-                [InlineKeyboardButton("📱MalayalamMovies📲", url="https://t.me/joinchat/AAAAAFPCFsHvCo9WTClaVg"), InlineKeyboardButton("📱MalayalamMovies📲", url="https://t.me/joinchat/AAAAAFPCFsHvCo9WTClaVg")],
-                [InlineKeyboardButton("📱MalayalamMovies📲", url="https://t.me/joinchat/AAAAAFPCFsHvCo9WTClaVg"), InlineKeyboardButton("📱MalayalamMovies📲", url="https://t.me/joinchat/AAAAAFPCFsHvCo9WTClaVg")],
-                [InlineKeyboardButton("📱MalayalamMovies📲", url="https://t.me/joinchat/AAAAAFPCFsHvCo9WTClaVg"), InlineKeyboardButton("📱MalayalamMovies📲", url="https://t.me/joinchat/AAAAAFPCFsHvCo9WTClaVg")],
-                [InlineKeyboardButton('🧿join 🧿shɑre 🧿support', url='https://t.me/share/url?url=https://t.me/joinchat/AAAAAEoI9qHQDl54X6hrnA')],
+                [InlineKeyboardButton("Old Movies", url="https://t.me/joinchat/AAAAAEjQX-exc-sdyC1Tiw"), InlineKeyboardButton("Tamil Moviez", url="https://t.me/joinchat/AAAAAFb1t0WASPF-ClYOAg")],
+                [InlineKeyboardButton("Amazon Prime Movies", url="https://t.me/joinchat/AAAAAFZtHEDtkdq1zLXsmQ"), InlineKeyboardButton("Kickass Torrents", url="https://t.me/joinchat/AAAAAFi-jZsSc3OlHRSltQ")],
+                [InlineKeyboardButton("TamilBlasters", url="https://t.me/joinchat/AAAAAEbDumtV24nDeKVtRw"), InlineKeyboardButton("Movie Archives And Filmography", url="https://t.me/FC_Archives")],
+                [InlineKeyboardButton('TgNetworks', url='http://T.me/TgNetworks')],
             ]
         )
     )
