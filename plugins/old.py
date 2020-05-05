@@ -55,8 +55,9 @@ async def old(bot, update):
                 [InlineKeyboardButton('•TᴀᴍɪʟRᴏᴄᴋᴇʀs★•', url='https://t.me/joinchat/AAAAAEoI9qHQDl54X6hrnA')],
                 [InlineKeyboardButton("🌀HEVC🌀", url="https://t.me/joinchat/AAAAAFSZfpvuqvHrlJ-Vig"), InlineKeyboardButton("🌀OLD movies🌀", url="https://t.me/joinchat/AAAAAFMMxf1wotQy7G3kfg")],
                 [InlineKeyboardButton("🌀Malayalam🌀", url="https://t.me/joinchat/AAAAAFPCFsHvCo9WTClaVg"), InlineKeyboardButton("🌀English🌀", url="https://t.me/joinchat/AAAAAFcgVJN1SCE_QDcLRg")],
+                [InlineKeyboardButton("🌀Kannada🌀", url="https://t.me/joinchat/AAAAAFco7KkVwmdDvF8LJw"), InlineKeyboardButton("🌀WEB SERIES🌀", url="https://t.me/joinchat/AAAAAEXHnHCKUuSUu0yM2A")],
                 [InlineKeyboardButton("🌀STREAM🌀", url="https://t.me/joinchat/AAAAAEowm0foYx11yTQotA"), InlineKeyboardButton("🌀400MB🌀", url="https://t.me/joinchat/AAAAAEL_N1cxaMN4GGEctw")],
-                [InlineKeyboardButton("🌀All movies🌀", url="https://t.me/joinchat/AAAAAESroNzOW8OJKX4hCg"), InlineKeyboardButton("🌀WEB SERIES🌀", url="https://t.me/joinchat/AAAAAEXHnHCKUuSUu0yM2A")],
+                [InlineKeyboardButton("🌀All movies🌀", url="https://t.me/joinchat/AAAAAESroNzOW8OJKX4hCg"), InlineKeyboardButton("🌀Love and status🌀", url="https://t.me/joinchat/AAAAAEXHnHCKUuSUu0yM2A")],
                 [InlineKeyboardButton('🌀TR NETWORK🌀', url='https://t.me/TR_NETWORK')],
             ]
         )
