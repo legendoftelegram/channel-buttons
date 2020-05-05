@@ -48,7 +48,7 @@ async def start(bot, update):
 @pyrogram.Client.on_message(pyrogram.Filters.document)
 async def old(bot, update):
     await bot.edit_message_reply_markup(
-        chat_id=int("-1001370109082"),
+        chat_id=update.chat.id,
         message_id=update.message_id,
         reply_markup=InlineKeyboardMarkup(
             [
