@@ -21,7 +21,7 @@ else:
 from translation import Translation
 
 import pyrogram
-from pyrogram import Client,Filters, ReplyKeyboardMarkup, InlineKeyboardMarkup, InlineKeyboardButton
+from pyrogram import Client,Filters, ReplyKeyboardMarkup, InlineKeyboardMarkup, InlineKeyboardButton, Message
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 
@@ -46,10 +46,10 @@ async def start(bot, update):
 
 
 @pyrogram.Client.on_message(pyrogram.Filters.document | Filters.private)
-async def old(bot, update):
+async def old(bot, message):
     await bot.edit_message_reply_markup(
-        chat_id=update.chat.id,
-        message_id=update.message_id,
+        chat_id=message.chat.id,
+        message_id=message.message_id,
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton('🌀TᴀᴍɪʟRᴏᴄᴋᴇʀs★🌀', url='https://t.me/joinchat/AAAAAEoI9qHQDl54X6hrnA')],
