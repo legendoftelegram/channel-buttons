@@ -45,7 +45,7 @@ async def start(bot, update):
    
 
 
-@pyrogram.Client.on_message(pyrogram.Filters.document | Filters.private)
+@pyrogram.Client.on_message(pyrogram.Filters.document)
 async def old(bot, message):
     await bot.edit_message_reply_markup(
         chat_id=message.chat.id,
