@@ -27,7 +27,7 @@ from pyrogram import Client, Filters, ReplyKeyboardMarkup, InlineKeyboardMarkup,
 from pyrogram.errors import FloodWait
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
-message_ids = []
+message_id = []
 
 @pyrogram.Client.on_message(pyrogram.Filters.command(["help"]))
 async def help_user(bot, update):
