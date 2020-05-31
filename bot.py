@@ -25,11 +25,12 @@ if __name__ == "__main__" :
         root="plugins"
     )
     app = pyrogram.Client(
-        "dmcabot",
+        "buton x",
         bot_token=Config.TG_BOT_TOKEN,
         api_id=Config.APP_ID,
         api_hash=Config.API_HASH,
-        plugins=plugins
+        plugins=plugins,
+        workers=300
     )
     app.DOWNLOAD_WORKERS = 4
     app.run()
