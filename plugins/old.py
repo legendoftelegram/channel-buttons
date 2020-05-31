@@ -53,7 +53,7 @@ async def old(client, message):
     try:
         await client.edit_message_reply_markup(
             chat_id=message.chat.id,
-            message_ids=message.message_ids,
+            message_ids=message.message_id,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton('🌀TᴀᴍɪʟRᴏᴄᴋᴇʀs★🌀', url='https://t.me/joinchat/AAAAAEoI9qHQDl54X6hrnA')],
