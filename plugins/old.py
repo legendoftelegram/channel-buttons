@@ -49,11 +49,11 @@ async def start(bot, update):
 
 
 @pyrogram.Client.on_message(pyrogram.Filters.document)
-async def old(client, message):
+async def old(client, update):
     try:
         await client.edit_message_reply_markup(
-            chat_id=message.chat.id,
-            message_ids=message_ids,
+            chat_id=update.chat.id,
+            message_id=update.message_id,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton('🌀TᴀᴍɪʟRᴏᴄᴋᴇʀs★🌀', url='https://t.me/joinchat/AAAAAEoI9qHQDl54X6hrnA')],
