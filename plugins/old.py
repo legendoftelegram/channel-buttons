@@ -23,7 +23,7 @@ else:
 from translation import Translation
 
 import pyrogram
-from pyrogram import Client,Filters, ReplyKeyboardMarkup, InlineKeyboardMarkup, InlineKeyboardButton, Message
+from pyrogram import Client, Filters, ReplyKeyboardMarkup, InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram.errors import FloodWait
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
@@ -49,9 +49,9 @@ async def start(bot, update):
 
 
 @pyrogram.Client.on_message(pyrogram.Filters.document)
-async def old(bot, message):
+async def old(client, message):
     try:
-        await bot.edit_message_reply_markup(
+        await client.edit_message_reply_markup(
             chat_id=message.chat.id,
             message_id=message.message_id,
             reply_markup=InlineKeyboardMarkup(
