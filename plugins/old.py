@@ -53,9 +53,8 @@ async def old(client, message):
             message_id=message.message_id,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton('🌀TᴀᴍɪʟRᴏᴄᴋᴇʀs★🌀', url="Config.TAMIL_LINK")],
-                    [InlineKeyboardButton("🌀HEVC🌀", url="Config.HEVC_LINK"), InlineKeyboardButton("🌀OLD movies🌀", url="Config.OLD_LINK")],
-                    [InlineKeyboardButton("🌀Malayalam🌀", url="Config.MALA_LINK), InlineKeyboardButton("🌀English🌀", url="Config.ENGLISH_LINK")],
+                    [InlineKeyboardButton('🌀TᴀᴍɪʟRᴏᴄᴋᴇʀs★🌀', url='https://t.me/joinchat/AAAAAEoI9qHQDl54X6hrnA')],
+                    [InlineKeyboardButton('🌀Malayalam old🌀', url='https://t.me/Malayalam_Old_movies_Z')], 
                 ]
             )
         )
