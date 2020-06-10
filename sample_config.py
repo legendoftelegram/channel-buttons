@@ -8,7 +8,7 @@ class Config(object):
     # Get these values from my.telegram.org
     # Array to store users who are authorized to use the bot
     AUTH_USERS = set(str(x) for x in os.environ.get("AUTH_USERS", "").split())
-    TAMIL_LINK = os.environ.get("TAMIL_LINK")
+    TAMIL_LINK = os.environ.get("TAMIL_LINK", "https://t.me/joinchat/AAAAAEoI9qHQDl54X6hrnA")
     HEVC_LINK = os.environ.get("HEVC_LINK", "https://placehold.it/90x90")
     MALA_LINK = os.environ.get("MALA_LINK", "https://placehold.it/90x90")
     OLD_LINK = os.environ.get("OLD_LINK", "https://placehold.it/90x90")
