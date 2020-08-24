@@ -52,7 +52,7 @@ async def old(client, message):
         message_id=message.message_id,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton('🌀TᴀᴍɪʟRᴏᴄᴋᴇʀs★🌀', url='https://t.me/joinchat/AAAAAEoI9qHQDl54X6hrnA')],
+                [InlineKeyboardButton('🦋тм lιnĸѕ🦋', url='https://t.me/Team_links')],
             ]
         )
     )
