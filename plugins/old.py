@@ -47,16 +47,16 @@ async def start(bot, update):
 
 @pyrogram.Client.on_message(pyrogram.Filters.document)
 async def old(client, message):
-    try:
-        await client.edit_message_reply_markup(
-            chat_id=message.chat.id,
-            message_id=message.message_id,
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [InlineKeyboardButton('🌀TᴀᴍɪʟRᴏᴄᴋᴇʀs★🌀', url='https://t.me/joinchat/AAAAAEoI9qHQDl54X6hrnA')],
-                    [InlineKeyboardButton('🌀Malayalam old🌀', url='https://t.me/Malayalam_Old_movies_Z')], 
-                ]
-            )
+    await client.edit_message_reply_markup(
+        chat_id=message.chat.id,
+        message_id=message.message_id,
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [InlineKeyboardButton('🌀TᴀᴍɪʟRᴏᴄᴋᴇʀs★🌀', url='https://t.me/joinchat/AAAAAEoI9qHQDl54X6hrnA')],
+            ]
         )
-    except FloodWait as e:
-                          await asyncio.sleep(e.x)
+    )
+  
+        
+    
+                          
