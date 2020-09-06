@@ -53,10 +53,10 @@ async def old(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton('🦋тм lιnĸѕ🦋', url='https://t.me/Team_links')],
-                [InlineKeyboardButton('🚸ѕhαrє🚸', url='https://t.me/share/url?url=join%20our%20channels%20https://t.me/TamilMV_TM')],
-            ]
+            ]  
         )
     )
+    
   
         
     
