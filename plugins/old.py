@@ -8,15 +8,11 @@ import sqlite3
 import time
 
 from sample_config import Config
-
-
-# the Strings used for this "thing"
 from translation import Translation
 
 import pyrogram
 from pyrogram import Client, Filters, ReplyKeyboardMarkup, InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram.errors import FloodWait
-logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 
 @pyrogram.Client.on_message(pyrogram.Filters.command(["start"]))
