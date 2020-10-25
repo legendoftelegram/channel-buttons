@@ -2,22 +2,12 @@
 # -*- coding: utf-8 -*-
 # (c) king legend
 
-# the logging things
-import logging
-logging.basicConfig(level=logging.DEBUG,
-                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
-
 import os
-
-# the secret configuration specific things
-
-from sample_config import Config
-
-    
-
 import pyrogram
-logging.getLogger("pyrogram").setLevel(logging.WARNING)
+
+from sample_config import Config  
+
+#stolen from spechides anydlbot
 
 
 if __name__ == "__main__" :
@@ -32,5 +22,4 @@ if __name__ == "__main__" :
         plugins=plugins,
         workers=300
     )
-    app.DOWNLOAD_WORKERS = 4
     app.run()
