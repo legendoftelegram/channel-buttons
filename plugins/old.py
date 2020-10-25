@@ -1,12 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K
-
-# the logging things
-import logging
-logging.basicConfig(level=logging.DEBUG,
-                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
+#basic version
 
 import asyncio
 import os
@@ -24,17 +18,6 @@ from pyrogram import Client, Filters, ReplyKeyboardMarkup, InlineKeyboardMarkup,
 from pyrogram.errors import FloodWait
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
-message_id = []
-
-@pyrogram.Client.on_message(pyrogram.Filters.command(["help"]))
-async def help_user(bot, update):
-    # logger.info(update)
-    await bot.send_message(
-        chat_id=update.chat.id,
-        text=Translation.HELP
-    )
-  
-  
 
 @pyrogram.Client.on_message(pyrogram.Filters.command(["start"]))
 async def start(bot, update):
@@ -52,7 +35,7 @@ async def old(client, message):
         message_id=message.message_id,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton('🦋тм lιnĸѕ🦋', url='https://t.me/Team_links')],
+                [InlineKeyboardButton('🦋name🦋', url='https://t.me/url')],
             ]  
         )
     )
