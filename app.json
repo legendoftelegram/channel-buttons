@@ -7,7 +7,7 @@
     "channel",
     "3"
   ],
-  "repository": "https://github.com/anandus0070/antiservice-message",
+  "repository": "https://github.com/legendoftelegram/channel-buttons",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables",
